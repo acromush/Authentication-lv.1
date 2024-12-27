@@ -20,7 +20,12 @@ This repository contains a Node.js application built using Express.js for handli
    - Install PostgreSQL on your system.
    - Create a new database.
    - Execute the SQL queries in `queries.sql` to create tables and other database objects.
+  
+     
+4. **Set up the index.js file:**
+   - Add the password and database name in place of "database" and "password"
 
+   
 ## Running the Application
 
 1. **Start the development server:**
@@ -31,12 +36,6 @@ This repository contains a Node.js application built using Express.js for handli
      ```
 
    - This will start the server on the default port (usually port 3000).
-
-* **index.js:** The main entry point of the application.
-* **routes/api.js:** Defines the API routes and handlers.
-* **models/db.js:** Contains database connection and query functions.
-* **queries.sql:** Contains SQL queries for database setup.
-* **package.json:** Lists project dependencies and other metadata.
 
 ## Usage
 
